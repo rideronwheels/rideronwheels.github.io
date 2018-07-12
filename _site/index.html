@@ -1,9 +1,22 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href=/assets/style/fullpage.min.css>
+	<link rel="stylesheet" type="text/css" href=/assets/style/main.css>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	
+	<title>TROW - The Rider On Wheels</title>
+	<!-- Begin Jekyll SEO tag v2.5.0 -->
 <meta name="generator" content="Jekyll v3.8.3" />
 <meta property="og:title" content="Your awesome title" />
 <meta property="og:locale" content="en_US" />
@@ -15,60 +28,246 @@
 <script type="application/ld+json">
 {"name":"Your awesome title","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","url":"http://localhost:4000/","headline":"Your awesome title","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
-<body><header class="site-header" role="banner">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Your awesome title</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+	
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 12, 2018</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2018/07/12/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+</head>
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+<body>
+	<head>
+		<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark navbar-right order-1">
+		<a class="navbar-brand" href="/">
+			<img class="brand-logo" src=/assets/img/logowhite.png alt="trow logo">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto post-data">
+				<li class="nav-item active">
+					<a class="nav-link" href="http://localhost:4000">Home<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://localhost:4000/#camp">Moto</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://localhost:4000/#posts">Posts</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://localhost:4000/blog">Blog</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://localhost:4000/#about">About</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	</head>
+	<div id="loader-container">
+	<div class="loader"></div>
+</div>
+<div id="fullpage">
+	<div class="section post-data">
+		<div class="overlayer" id="block2" style="width: 100%; height: 100%;" data-vide-bg="mp4: /assets/videos/cov, webm: /assets/videos/cov,poster: /assets/videos/cover" data-vide-options="position: 0% 50%">
+		<div class="container-fluid"> 
 
-  <div class="wrapper">
+			<div class="row" id="homeLogo">
+				<div class="col-xs-12 col-xl-12">
+					<div class="container text-center">
+						<img class="logo" src="/assets/img/logowhite.png" alt="trow logo" />
+						<hr />
+						<h4>"We are a group of people who believes wheels are the wings to humans, gifted by God"</h4>
+					</div>
+				</div>
+			</div>
 
-    <h2 class="footer-heading">Your awesome title</h2>
+		</div>
+	</div>
+			<!-- <video autoplay muted loop id="myVideo">
+			<source src="/assets/videos/SampleVideo.mp4" type="video/mp4">
+			</video>
+			<div class="container">
+			<div class="row">
+			<div class="col-xs-12 col-xl-12">
+			<img class="logo" src="/assets/logowhite.png" alt="trow logo">
+			<hr>
+			<h4><em>"We are a group of people who believes wheels are the wings to humans, gifted by God."</em></h4>
+			</div>
+			</div>
+		</div> -->
+	</div>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Your awesome title</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
-      </div>
+	<div class="section" id="xcamp">
+		<div class="row content">
+			<div class="col-sm-3 sidenav">
+				<img src="/assets/img/COB.png" alt="" title="" media-simple="true" />
+			</div>
+			<div class="col-sm-8" id="xcampdata">
+				<h1>Carry Own Bottle</h1>   
+				<h2>#carryownbottle</h2>     
+				<br />
+				<p class="moto-data">Carry Own Bottle is a small initiative to spread awareness among people to reduce the usage of disposable bottles during travel.
+					<br />
+					“Here we are making a pledge on the consumption of plastic that we will carry our own water bottle while travelling instead of buying bottled water”
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
+				</p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="section" id="xposts">
+
+		<div class="slide" id="c1">
+			<div class="container-fluid ">
+				<div class="row">
+
+					<div class="col-md-6 post-data">
+						<h1>A Rain ride to Vembly Waterfalls</h1>
+
+						<p>When you are at an awesome fall and no one else is there other than you, what will you call that feeling? We felt like it was our own fall and we enjoyed to the maximum. 
+							<br />
+							Vembly Waterfalls or Vembili waterfalls is a beautiful waterfall situated at Urumbikkara near Mundakkayam, Kerala. It is around 11 km from Mundakkayam town in the Mundakayam - Urumbikara route, 25 km from Erattupetta, 37 km from Vagamon and 100 km from Kochi. 
+
+						</p>
+						<a href="#" class="btn btn-outline-light btn-block">Read More</a>
+					</div>
+
+
+					<div class="col-md-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YhMLAZsm1ZE?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="c2">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Lorem ipsum</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<a href="#" class="btn btn-outline-light btn-block">Read More</a>
+					</div>
+
+					<div class="col-md-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SYJlY72b1fo?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="c3">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Lorem ipsum</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<a href="#" class="btn btn-outline-light btn-block">Read More</a>
+					</div>
+
+					<div class="col-md-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ND9TFAtRuis?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" id="c4">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>Lorem ipsum</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<a href="#" class="btn btn-outline-light btn-block">Read More</a>
+					</div>
+					<div class="col-md-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com//embed/NCPqFXFRZYY" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section" id="xabout">
+		<div class="container-fluid"> 
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="well" id="xaboutbox">
+						<div class="pb-3">
+							<div class="user_image">
+								<img src="/assets/img/niyas.png" alt="" title="" media-simple="true" />
+							</div>
+						</div>
+						<div class="pb-3">
+							<div class="well">
+								<h3>Niyas C</h3>
+								<p>Developer</p>
+							</div>
+							<div class="well">
+								<a href="https://www.facebook.com/niyasc" class="fa fa-facebook"></a>
+								<a href="https://www.linkedin.com/in/niyas-c-99474047/" class="fa fa-linkedin"></a>
+								<a href="#" class="fa fa-google"></a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-4"> 
+					<div class="well" id="xaboutbox">
+						<div class="user_image">
+							<img src="/assets/img/vip.png" alt="" title="" media-simple="true" />
+						</div>
+						<div class="pb-3">
+							<div class="well">
+								<h3>Vipin Vijayan</h3>
+								<p>Owner</p>
+							</div>
+							<div class="well">
+								<a href="https://www.facebook.com/vipin.vijayan.12" class="fa fa-facebook"></a>
+								<a href="#" class="fa fa-linkedin"></a>
+								<a href="#" class="fa fa-google"></a>
+							</div>
+						</div>
+					</div>  
+				</div>
+				<div class="col-sm-4"> 
+					<div class="well" id="xaboutbox">
+						<div class="user_image">
+							<img src="/assets/img/unni.png" alt="" title="" media-simple="true" />
+						</div>
+						<div class="pb-3">
+							<div class="well">
+								<h3>Unnikrishnan Parameswaran</h3>
+								<p>Support</p>
+							</div>
+							<div class="well">
+								<a href="https://www.facebook.com/UnnikrishnanParameswaran" class="fa fa-facebook"></a>
+								<a href="#" class="fa fa-linkedin"></a>
+								<a href="#" class="fa fa-google"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
 </div>
 
-      <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
-      </div>
-    </div>
-
-  </div>
-
-</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<script type="text/javascript" src=/assets/script/scrolloverflow.min.js></script>
+	<script type="text/javascript" src=/assets/script/fullpage.min.js></script>
+	<script type="text/javascript" src=/assets/script/main.js></script>
+	<script type="text/javascript" src="/assets/script/jquery.vide.js></script>
 </body>
-
 </html>

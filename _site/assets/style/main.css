@@ -1,0 +1,88 @@
+body{text-align:center;}
+.brand-logo{height:32px;}
+.logo{width:100%;max-width:300px;text-shadow:black 2px 2px 2px;background: rgba(0,0,0,0.5);
+	padding: 1rem;
+	border-radius: 3%;}
+	.description{padding-top:3rem;}
+	.overlayer{position:absolute;top:0;bottom:0;left:0;right:0;height:100%;width:100%;opacity:0.65;transition:.5s ease;background-color:grey;}
+	#xcamp{background:url('/assets/img/plastic.jpg');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+	#xcampdata{color:black;font-family:ubuntu;background:rgba(255,255,255,0.5);text-align:left;}
+	.moto-data{color:black;font-family:ubuntu;font-size:130%;}
+	#xposts{text-shadow:black 2px 2px 2px;color:white;}
+	.post-data{font-family:ubuntu;font-size:120%;text-align:left;}
+	.embed-responsive{padding:1rem;margin-top:1rem;box-shadow:5px 5px 10px 0px rgba(1,1,1,0.75)}
+	#xabout{background:url('/assets/img/us.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;color:black;}
+	#homeLogo{padding-top:250px;color:white;text-shadow:black 2px 2px 2px;}
+	#xaboutbox{padding-top:30px;height:400px;background:rgba(0,0,0,0.5);color:white;font-family:ubuntu;text-shadow:black 2px 2px 2px;}
+	.user_image{width:150px;height:150px;margin-top:.6rem;margin-bottom:1.6rem;overflow:hidden;border-radius:50%;margin:0 auto 2rem auto;}
+	.center-div{position:absolute;margin:auto;top:0;right:0;bottom:0;left:0;width:100px;height:100px;background-color:#ccc;border-radius:3px;}
+	.fa{padding:20px;font-size:30px;width:65px;text-align:center;text-decoration:none;margin:5px 2px;}
+	.fa-facebook{background:#3B5998;color:white;}
+	.fa-twitter{background:#55ACEE;color:white;}
+	.fa-google{background:#dd4b39;color:white;}
+	.fa-linkedin{background:#007bb5;color:white;}
+	.fa-youtube{background:#bb0000;color:white;}
+	.fa-instagram{background:#125688;color:white;}
+	.fa:hover{opacity:0.7;}
+	#fp-nav ul li a span, .fp-slidesNav ul li a span{background:white;}
+	#c1{background:url('/assets/img/carousal1.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+	#c2{background:url('/assets/img/carousal2.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+	#c3{background:url('/assets/img/carousal3.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+	#c4{background:url('/assets/img/carousal4.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+	#fullpage {
+		visibility: hidden;
+	}
+	#loader-container {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		/**left: 45%;**/
+		top: 50%;
+	}
+	.loader {
+     border-top: 16px solid blue;
+	 border-right: 16px solid green;
+	 border-bottom: 16px solid red;
+	 border-left: 16px solid pink;
+	 border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+header.masthead {
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 30rem;
+}
+header.masthead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: .5;
+}
+.content {
+	margin-top: 4rem;
+}
+.post-preview {
+	text-align: left;
+}
+
+footer {
+	margin-top: 3rem;
+}
