@@ -50,6 +50,7 @@ layout: default
 					“Here we are making a pledge on the consumption of plastic that we will carry our own water bottle while travelling instead of buying bottled water”
 
 				</p>
+				<p><a class="btn btn-secondary" href="/anti-plastic-campaign" role="button">View details »</a></p>
 			</div>
 		</div>
 
