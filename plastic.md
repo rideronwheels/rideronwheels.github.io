@@ -7,7 +7,7 @@ permalink: /anti-plastic-campaign
 	<div class="section post-data">
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
-				<img src="/assets/img/COB.png" alt="" title="" media-simple="true">
+				
 			</div>
 			<div class="col-sm-8" id='xcampdata'>
 				<h1>Carry Own Bottle</h1>   
@@ -53,6 +53,10 @@ permalink: /anti-plastic-campaign
 						As part of being the change for a greener tomorrow we are taking a pledge to reduce plastic consumption. In our trips we will be carrying our own water bottles instead of mineral water bottles.
 					</p>
 				</p>
+				<div class="post-content" itemprop="articleBody">
+				    
+				    {% include share-bar.html %}
+				</div>
 			</div>
 		</div>
 	</div>

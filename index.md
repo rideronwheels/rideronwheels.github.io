@@ -153,7 +153,7 @@ layout: default
 							<div class="well">
 								<a href="https://www.facebook.com/niyasc" class="fa fa-facebook"></a>
 								<a href="https://www.linkedin.com/in/niyas-c-99474047/" class="fa fa-linkedin"></a>
-								<a href="#" class="fa fa-google"></a>
+								<a href="#" class="fa fa-google-plus"></a>
 							</div>
 						</div>
 
@@ -172,7 +172,7 @@ layout: default
 							<div class="well">
 								<a href="https://www.facebook.com/vipin.vijayan.12" class="fa fa-facebook"></a>
 								<a href="#" class="fa fa-linkedin"></a>
-								<a href="#" class="fa fa-google"></a>
+								<a href="#" class="fa fa-google-plus"></a>
 							</div>
 						</div>
 					</div>  
@@ -190,7 +190,7 @@ layout: default
 							<div class="well">
 								<a href="https://www.facebook.com/UnnikrishnanParameswaran" class="fa fa-facebook"></a>
 								<a href="#" class="fa fa-linkedin"></a>
-								<a href="#" class="fa fa-google"></a>
+								<a href="#" class="fa fa-google-plus"></a>
 							</div>
 						</div>
 					</div>
