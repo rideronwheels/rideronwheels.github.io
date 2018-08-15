@@ -28,7 +28,7 @@ body{text-align:center;}
 	#c1{background:url('/assets/img/carousal1.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
 	#c2{background:url('/assets/img/carousal2.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
 	#c3{background:url('/assets/img/carousal3.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
-	#c4{background:url('/assets/img/carousal4.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+	#c4{background:url('/assets/img/carousal4.jpg');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
 	#fullpage {
 		visibility: hidden;
 	}
