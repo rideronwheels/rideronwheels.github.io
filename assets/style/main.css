@@ -50,6 +50,17 @@ body{text-align:center;}
     animation: spin 2s linear infinite;
     margin: auto;
 }
+#block2 {
+	background: url('/assets/img/cover.jpg');
+	background-size: cover;
+}
+.social-icons {
+  display: inline;
+}
+.post-preview {
+  text-align: initial;
+}
+.post-meta {text-align: right}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }

@@ -6,8 +6,7 @@ layout: default
 </div>
 <div id="fullpage">
 	<div class="section post-data">
-		<div class = "overlayer" id="block2" style="width: 100%; height: 100%;" data-vide-bg="mp4: /assets/videos/cov, webm: /assets/videos/cov,poster: /assets/videos/cover"
-		data-vide-options="position: 0% 50%">
+		<div class = "overlayer" id="block2" style="width: 100%; height: 100%;">
 		<div class="container-fluid"> 
 
 			<div class="row" id = "homeLogo">
