@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href=/assets/style/bootstrap.min.css defer>
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" defer>
@@ -19,22 +19,24 @@
 	<script type="text/javascript" src=/assets/script/scrolloverflow.min.js defer></script>
 	<script type="text/javascript" src=/assets/script/fullpage.min.js defer></script>
 	<script type="text/javascript" src=/assets/script/app.js defer></script>
+	    <script type="text/javascript" src="/assets/script/nodes.js"></script>
 
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
 	
 	<title>TROW - The Rider On Wheels</title>
-	<!-- Begin Jekyll SEO tag v2.5.0 -->
-<meta name="generator" content="Jekyll v3.8.3" />
+	<!-- Begin Jekyll SEO tag v2.6.1 -->
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="TROW" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="TROW" />
 <meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="TROW" />
 <meta name="twitter:site" content="@benbalter" />
 <script type="application/ld+json">
-{"name":"TROW","@type":"WebSite","url":"http://localhost:4000/","headline":"TROW","@context":"http://schema.org"}</script>
+{"@type":"WebSite","url":"http://localhost:4000/","name":"TROW","headline":"TROW","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 	
@@ -42,6 +44,32 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+        var nodesjs = new NodesJs({
+            id: 'nodes',
+            width: window.innerWidth,
+            height: window.innerHeight,
+            particleSize: 1,
+            lineSize: 2,
+            particleColor: [255, 255, 255],
+            lineColor: [255, 255, 255],
+            backgroundFrom: [0, 0, 0,],
+            backgroundTo: [0, 0, 0,],
+            backgroundDuration: 4000,
+            nobg: false,
+            number: window.hasOwnProperty('orientation') ? 30: 100,
+            speed: 20
+        });
+    </script>
+   
+    <!-- </nodes.js embedding> -->
+
+    <script type="text/javascript">
+        window.onresize = function () {
+            nodesjs.setWidth(window.innerWidth);
+            nodesjs.setHeight(window.innerHeight);
+        };
+    </script>
 	<head>
 		<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark navbar-right order-1">
 		<a class="navbar-brand" href="/">
@@ -60,7 +88,7 @@
 					<a class="nav-link" href="http://localhost:4000/#camp">Moto</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="http://localhost:4000/#posts">Posts</a>
+					<a class="nav-link" href="http://localhost:4000/#posts">Vidoes</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="http://localhost:4000/blog/">Blog</a>
@@ -68,8 +96,11 @@
 				<li class="nav-item">
 					<a class="nav-link" href="http://localhost:4000/#about">About</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="http://localhost:4000/#about">Contact Us</a>
+				</li>
 			</ul>
-			<ul class="navbar-nav social-icons">
+			<!-- <ul class="navbar-nav social-icons">
 				<a  href="https://www.facebook.com/trow.online/" target="_blank">
 					<i class="fa fa-facebook share-button"></i></a>
 				<a  href="https://www.youtube.com/channel/UC3WVq5QxW7-kPbsjVT8Rk-A" target="_blank">
@@ -77,24 +108,31 @@
 				<a  href="" target="_blank">
 				<i class="fa fa-instagram share-button"></i></a>
 				
-			</ul>
+			</ul> -->
 		</div>
 	</nav>
 	</head>
 	<div id="loader-container">
-	<div class="loader"></div>
-</div>
+		
+		<div class="container">
+			<img class="img-fluid" src="/assets/img/loader.gif" alt="Loading" />
+		</div>
+	</div>
 <div id="fullpage">
+
 	<div class="section post-data">
 		<div class="overlayer" id="block2" style="width: 100%; height: 100%;">
+			<div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%;">
+        		<canvas style = "opacity: 40%" id="nodes"></canvas>
+    		</div>
 		<div class="container-fluid"> 
 
 			<div class="row" id="homeLogo">
 				<div class="col-xs-12 col-xl-12">
 					<div class="container text-center">
-						<img class="logo" src="/assets/img/logowhite.png" alt="trow logo" />
+						<img src="/assets/img/logowhite.png" alt="trow logo" />
 						<hr />
-						<h4>"We are a group of people who believes wheels are the wings to humans, gifted by God"</h4>
+						<h4>"We are a group of people who believe wheels are the wings to humans, gifted by God"</h4>
 					</div>
 				</div>
 			</div>
@@ -116,28 +154,135 @@
 	</div>
 
 	<div class="section" id="xcamp">
-		<div class="row content">
-			<div class="col-sm-3 sidenav">
-				<img src="/assets/img/COB.png" alt="" title="" media-simple="true" />
+		<div class="container-fluid ">
+			<div class="row">
+				<div class="col-lg">
+					<div class="text-center underline ">
+					  <h1>Our Moto</h1>
+					</div>
+				</div>
 			</div>
-			<div class="col-sm-8" id="xcampdata">
-				<h1>Carry Own Bottle</h1>   
-				<h2>#carryownbottle</h2>     
-				<br />
-				<p class="moto-data">Carry Own Bottle is a small initiative to spread awareness among people to reduce the usage of disposable bottles during travel.
-					<br />
-					“Here we are making a pledge on the consumption of plastic that we will carry our own water bottle while travelling instead of buying bottled water”
-
-				</p>
-				<p><a class="btn btn-secondary" href="/anti-plastic-campaign" role="button">View details »</a></p>
+			<div class="row">
+				<div class="col-sm-3" id ="xcampbox">
+					<div class="container text-center">
+							<img class="img-fluid"src="/assets/img/plastic.png" alt="plastic" />
+							<h3>Avoid Plastic</h3>
+							<h4>#CarryOwnBottle</h4>
+						<div class="carte">
+							<div class="container text-center">
+								<h4>It is a small initiative to spread awareness among travellers to reduce the consumption of plastic bottles.As part of being the change for a greener tomorrow we are taking a pledge to reduce plastic consumption.</h4>
+								<a href="/anti-plastic-campaign" class="btn btn-success">Read More</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="col-sm-3" id ="xcampbox">
+					<div class="container text-center">
+						<img class="img-fluid" src="/assets/img/helmet.png" alt="safety" />
+							<h3>Drive with Safety</h3>
+							<h4>#SafetyFirst</h4>
+						<div class="carte">
+							<div class="container text-center">
+								<h4>No matter how skilled of a driver you are, it's a good idea to reflect on the basics of traffic safety from time to time just to make sure that you are being careful enough to keep yourself - and other drivers and pedestrians - as safe as possible.</h4>
+								<a href="/2018/07/12/vembly.html" class="btn btn-success">Read More</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="col-sm-3" id ="xcampbox">
+					<div class="container text-center">
+						<img class="img-fluid" src="/assets/img/traffic.png" alt="traffic" />
+							<h3>Obey Traffic Rules</h3>
+							<h4>#FollowRules</h4>
+						<div class="carte">
+							<div class="container text-center">
+								<h4>Road accidents have become very common due to the vehicle collisions and ignorance of proper road safety measures. The number of death is increasing due to the motor vehicle collisions by the people ignoring road safety rules.</h4>
+								<a href="/2018/07/12/vembly.html" class="btn btn-success">Read More</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="col-sm-3" id ="xcampbox">
+					<div class="container text-center">
+						<img class="img-fluid" src="/assets/img/timer.png" alt="patience" />
+							<h3>Patience Drive</h3>
+							<h4>#BePatient</h4>
+						<div class="carte">
+							<div class="container text-center">
+								<h4>Minor traffic infringements can sometimes lead to more serious incidents if drivers aren’t patient on the road. All too often a small violation becomes the catalyst for an incidence of road rage.</h4>
+								<a href="/2018/07/12/vembly.html" class="btn btn-success">Read More</a>
+							</div>
+						</div> 
+					</div>
+				</div>
 			</div>
 		</div>
-
 	</div>
 
 	<div class="section" id="xposts">
+		<div class="slide" id ="block2">
+			<div class="container-fluid ">
+				<div class="row">
+					<div class="col-lg">
+						<div class="text-center ">
+						  <h1>VIDEOS</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5f-EZbDn_ao?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q7zk4e-cmmQ?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IL_Q3iGZUt4?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UJcyL3o3uhk?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K0vKkDMrn6I?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JPTymfPxrJE?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iZJEFxM8AXQ?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YhMLAZsm1ZE?rel=0" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg margintop">
+						<a  href="https://www.youtube.com/channel/UC3WVq5QxW7-kPbsjVT8Rk-A" target="_blank" class="btn btn-danger btn-block">
+						<i class="fa fa-play"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-		<div class="slide" id="c1">
+		<!-- <div class="slide" id="c1">
 			<div class="container-fluid ">
 				<div class="row">
 
@@ -212,7 +357,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
 	<div class="section" id="xabout">
 		<div class="container-fluid"> 
@@ -275,6 +420,16 @@
 					</div>
 				</div>
 			</div>
+
+			<hr>
+        <div class="text-center center-block foot">
+            <br />
+                <a href="https://www.facebook.com/trow.online/" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-instagram-square fa-3x social" aria-hidden="true"></i></a>
+	            <a href="https://plus.google.com/+Bootsnipp-page"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+		</div>
+		    <hr>
 
 		</div>
 	</div>
