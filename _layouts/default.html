@@ -16,7 +16,7 @@ layout: compress
 	<link rel="stylesheet" type="text/css" href={{ "/assets/style/fullpage.min.css" | relative_url }} defer>
 	<link rel="stylesheet" type="text/css" href={{ "/assets/style/font-awesome.min.css" | relative_url }} defer>
 	<link rel="stylesheet" type="text/css" href={{ "/assets/style/main.css" | relative_url }} defer>
-	
+	<script type="text/javascript" src={{ "/assets/script/nodes.js" }}></script>
 	<script type="text/javascript" src={{ "/assets/script/jquery-3.3.1.min.js" | relative_url }} defer></script>
 	<script type="text/javascript" src={{ "/assets/script/popper.min.js" | relative_url }} defer></script>
 	<script type="text/javascript" src={{ "/assets/script/bootstrap.min.js" | relative_url }} defer></script>
@@ -24,7 +24,8 @@ layout: compress
 	<script type="text/javascript" src={{ "/assets/script/fullpage.min.js" | relative_url }} defer></script>
 	<script type="text/javascript" src={{ "/assets/script/app.js" | relative_url }} defer></script>
 
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
 	{% if page.url == '/' %}
 	<title>TROW - The Rider On Wheels</title>
@@ -32,10 +33,36 @@ layout: compress
 	{% else %}
 	{% seo %}
 	{% endif %}
-
+    
 </head>
 
 <body>
+	<script type="text/javascript">
+        var nodesjs = new NodesJs({
+            id: 'nodes',
+            width: window.innerWidth,
+            height: window.innerHeight,
+            particleSize: 2,
+            lineSize: 1,
+            particleColor: [255, 255, 255],
+            lineColor: [255, 255, 255],
+            backgroundFrom: [0, 0, 0],
+            backgroundTo: [0, 0, 0],
+            backgroundDuration: 4000,
+            nobg: false,
+            number: window.hasOwnProperty('orientation') ? 30: 100,
+            speed: 20
+        });
+    </script>
+    
+    <!-- </nodes.js embedding> -->
+
+    <script type="text/javascript">
+        window.onresize = function () {
+            nodesjs.setWidth(window.innerWidth);
+            nodesjs.setHeight(window.innerHeight);
+        };
+    </script>
 	<head>
 		<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark navbar-right order-1">
 		<a class="navbar-brand" href="/">
@@ -54,7 +81,7 @@ layout: compress
 					<a class="nav-link" href="{{site.url}}/#camp">Moto</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{site.url}}/#posts">Posts</a>
+					<a class="nav-link" href="{{site.url}}/#posts">Videos</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="{{site.url}}/blog/">Blog</a>

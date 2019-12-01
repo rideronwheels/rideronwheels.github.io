@@ -12,13 +12,14 @@
 	<link rel="stylesheet" type="text/css" href=/assets/style/fullpage.min.css defer>
 	<link rel="stylesheet" type="text/css" href=/assets/style/font-awesome.min.css defer>
 	<link rel="stylesheet" type="text/css" href=/assets/style/main.css defer>
-	
+	<script type="text/javascript" src=/assets/script/nodes.js></script>
 	<script type="text/javascript" src=/assets/script/jquery-3.3.1.min.js defer></script>
 	<script type="text/javascript" src=/assets/script/popper.min.js defer></script>
 	<script type="text/javascript" src=/assets/script/bootstrap.min.js defer></script>
 	<script type="text/javascript" src=/assets/script/scrolloverflow.min.js defer></script>
 	<script type="text/javascript" src=/assets/script/fullpage.min.js defer></script>
 	<script type="text/javascript" src=/assets/script/app.js defer></script>
+
 
 	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
@@ -39,10 +40,36 @@
 <!-- End Jekyll SEO tag -->
 
 	
-
+    
 </head>
 
 <body>
+	<script type="text/javascript">
+        var nodesjs = new NodesJs({
+            id: 'nodes',
+            width: window.innerWidth,
+            height: window.innerHeight,
+            particleSize: 2,
+            lineSize: 1,
+            particleColor: [255, 255, 255],
+            lineColor: [255, 255, 255],
+            backgroundFrom: [0, 0, 0],
+            backgroundTo: [0, 0, 0],
+            backgroundDuration: 4000,
+            nobg: false,
+            number: window.hasOwnProperty('orientation') ? 30: 100,
+            speed: 20
+        });
+    </script>
+    
+    <!-- </nodes.js embedding> -->
+
+    <script type="text/javascript">
+        window.onresize = function () {
+            nodesjs.setWidth(window.innerWidth);
+            nodesjs.setHeight(window.innerHeight);
+        };
+    </script>
 	<head>
 		<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark navbar-right order-1">
 		<a class="navbar-brand" href="/">

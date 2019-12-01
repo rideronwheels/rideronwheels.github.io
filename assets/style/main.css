@@ -1,17 +1,17 @@
 body{text-align:center;}
 .brand-logo{height:32px;}
-.logo{width:100%;max-width:300px;text-shadow:black 2px 2px 2px;background: rgba(0,0,0,0.5);
+.logo{width:100%;max-width:300px;text-shadow:black 2px 2px 2px;
 	padding: 1rem;
 	border-radius: 3%;}
 	.description{padding-top:3rem;}
-	.overlayer{position:absolute;top:0;bottom:0;left:0;right:0;height:100%;width:100%;opacity:0.65;transition:.5s ease;background-color:grey;}
-	#xcamp{background:url('/assets/img/plastic.jpg');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+	.overlayer{position:absolute;top:0;bottom:0;left:0;right:0;height:100%;width:100%;transition:.5s ease;}
+	#xcamp{height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
 	#xcampdata{color:black;font-family:ubuntu;background:rgba(255,255,255,0.5);text-align:left;}
 	.moto-data{color:black;font-family:ubuntu;font-size:130%;}
 	#xposts{text-shadow:black 2px 2px 2px;color:white;}
 	.post-data{font-family:ubuntu;font-size:120%;text-align:left;}
 	.embed-responsive{padding:1rem;margin-top:1rem;box-shadow:5px 5px 10px 0px rgba(1,1,1,0.75)}
-	#xabout{background:url('/assets/img/us.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;color:black;}
+	#xabout{height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;color:black;}
 	#homeLogo{padding-top:250px;color:white;text-shadow:black 2px 2px 2px;}
 	#xaboutbox{padding-top:30px;height:400px;background:rgba(0,0,0,0.5);color:white;font-family:ubuntu;text-shadow:black 2px 2px 2px;}
 	.user_image{width:150px;height:150px;margin-top:.6rem;margin-bottom:1.6rem;overflow:hidden;border-radius:50%;margin:0 auto 2rem auto;}
@@ -28,32 +28,13 @@ body{text-align:center;}
 	#c1{background:url('/assets/img/carousal1.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
 	#c2{background:url('/assets/img/carousal2.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
 	#c3{background:url('/assets/img/carousal3.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
-	#c4{background:url('/assets/img/carousal4.png');height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
-	#fullpage {
-		visibility: hidden;
-	}
-	#loader-container {
-		width: 100%;
-		height: 100%;
-		position: fixed;
-		/**left: 45%;**/
-		top: 50%;
-	}
-	.loader {
-     border-top: 16px solid blue;
-	 border-right: 16px solid green;
-	 border-bottom: 16px solid red;
-	 border-left: 16px solid pink;
-	 border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-    margin: auto;
-}
-#block2 {
-	background: url('/assets/img/cover.jpg');
-	background-size: cover;
-}
+	#c4{height:100%;background-position:center;background-repeat:no-repeat;background-size:cover;}
+	#fullpage {visibility: hidden;}
+	#loader-container {width: 100%;height: 100%;}
+	.loader {}
+	#block2 {background: url('/assets/img/demo.jpg');background-size: cover;}
+	.nodes{position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%;}
+
 .social-icons {
   display: inline;
 }

@@ -1,12 +1,19 @@
 ---
 layout: default
 ---
+
+
 <div id="loader-container">
-	<div class="loader"></div>
+	<div class="loader">
+		<img class= "img-fluid" src="/assets/img/loader.gif" alt="loader" title="loader">
+	</div>
 </div>
 <div id="fullpage">
 	<div class="section post-data">
 		<div class = "overlayer" id="block2" style="width: 100%; height: 100%;">
+			<div class = "nodes">
+		        <canvas style="opacity: 60%; " id="nodes"></canvas>
+		    </div>
 		<div class="container-fluid"> 
 
 			<div class="row" id = "homeLogo">
@@ -14,7 +21,7 @@ layout: default
 					<div class="container text-center">
 						<img class="logo" src="/assets/img/logowhite.png" alt="trow logo">
 						<hr>
-						<h4>"We are a group of people who believes wheels are the wings to humans, gifted by God"</h4>
+						<h4>"We are a group of people who believe wheels are the wings to humans, gifted by God"</h4>
 					</div>
 				</div>
 			</div>
