@@ -39,5 +39,6 @@ $(function() {
         $('.nav-item').removeClass('active');
         $(this).addClass('active');
     });
-
+    // Collapse navbar
+    $('.navbar-toggler').click();
 });
