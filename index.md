@@ -22,7 +22,7 @@ layout: default
 						<div class="container text-center">
 							<img class="logo" src="/assets/img/logowhite.png" alt="trow logo">
 							<hr>
-							<h3>We Are <span class="text-slider-items">Travellers,Explorers,Enthusiasts,Engineers,</span><strong class="text-slider"></strong></h3>
+							<h3>We Are <span class="text-slider-items">Travellers,Explorers,Enthusiasts,Engineers</span><strong class="text-slider"></strong></h3>
 							<!-- <h4>"We are a group of people who believe wheels are the wings to humans, gifted by God"</h4> -->
 						</div>
 					</div>
@@ -33,22 +33,65 @@ layout: default
 	</div>
 <!-- Moto starts -->
 	<div class="section portfolio-mf sect-pt4 route" id='xcamp'>
-		<div class="row content">
-			<div class="col-sm-3 sidenav">
-				<img src="/assets/img/COB.png" alt="" title="" media-simple="true">
-			</div>
-			<div class="col-sm-8" id='xcampdata'>
-				<h1>Carry Own Bottle</h1>   
-				<h2>#carryownbottle</h2>     
-				<br>
-				<p class="moto-data">Carry Own Bottle is a small initiative to spread awareness among people to reduce the usage of disposable bottles during travel.
-					<br>
-					“Here we are making a pledge on the consumption of plastic that we will carry our own water bottle while travelling instead of buying bottled water”
-
-				</p>
-				<p><a class="btn btn-secondary" href="/anti-plastic-campaign" role="button">View details »</a></p>
+  	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			    <div class="title-box2 text-center">
+			        <h3 class="title-a">
+			              Moto
+			        </h3>
+			        <p class="subtitle-a">
+		              
+		            </p>
+			        <div class="line-mf"></div>
+			    </div>
 			</div>
 		</div>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/plastic.png" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                As part of being the change for a greener tomorrow we are taking a pledge to reduce plastic consumption. In our trips we will be carrying our own water bottles instead of plastic mineral water bottles.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/helmet.png" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <p>
+                It is important for drivers to understand the risks of driving without proper safety wearings. Without safety, we are vulnerable to a traumatic impact even when traveling at low speeds. We are giving first priority to the safety when we are on road.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/timer.png" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                Drive With Patience, Care And Courtesy. Traffic Rules are in place to help protect you and others while operating a vehicle on the road. Make sure you know the rules and that you apply them to your own driving every day.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
 
 	</div>
 <!-- videos starts -->
@@ -283,7 +326,7 @@ layout: default
                   <h6 class="category">Developer</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="blog-single.html">Niyas C</a></h3>
+              <h3 class="card-title"><a href="https://www.facebook.com/niyasc">Niyas C</a></h3>
               <p class="card-description">
                 Software Engineer and content writer of open source softwares.
                 Read his latest blogs about open source softwares and free operating systems in 
@@ -292,9 +335,8 @@ layout: default
             </div>
             <div class="card-footer">
               <div class="post-author">
-                <a href="#">
-              
-                  <span class="author"><a href="mailto:ukpgeetham@gmail.com">Send email to Niyas</a></span>
+                <a href="mailto:info.trow@gmail.com?subject=niyas%20email">
+                  <span class="author">Send email to Niyas</span>
                 </a>
               </div>
               <div class="post-date">
@@ -314,7 +356,7 @@ layout: default
                   <h6 class="category">Vlogger</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="blog-single.html">Vipin Vijayan</a></h3>
+              <h3 class="card-title"><a href="https://www.facebook.com/vipin.vijayan.12">Vipin Vijayan</a></h3>
               <p class="card-description">
                 Frequent traveller and video blogger. Completed all india bike trip in 33 days.
 				Watch all his travel video moments in <a href="https://www.youtube.com/channel/UC3WVq5QxW7-kPbsjVT8Rk-A">youtube</a> channel.
@@ -322,8 +364,7 @@ layout: default
             </div>
             <div class="card-footer">
               <div class="post-author">
-                <a href="#">
-                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+                <a href="mailto:info.trow@gmail.com?subject=vipin%20email">
                   <span class="author"> Send email to Vipin</span>
                 </a>
               </div>
@@ -344,15 +385,14 @@ layout: default
 			                  <h6 class="category">Designer</h6>
 			                </div>
 			              </div>
-			              <h3 class="card-title"><a href="blog-single.html">Unnikrishnan Parameswaran</a></h3>
+			              <h3 class="card-title"><a href="https://www.facebook.com/UnnikrishnanParameswaran">Unnikrishnan Parameswaran</a></h3>
 			              <p class="card-description">
 			                Photographer, Software Engineer and Travel enthusiast. Watch all his beautiful travel captures of different locations in his <a href="https://www.youtube.com/channel/UC3WVq5QxW7-kPbsjVT8Rk-A">instagram.</a>
 			              </p>
 			            </div>
 			            <div class="card-footer">
 			              <div class="post-author">
-			                <a href="#">
-			                  <img src="img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+			                <a href="mailto:info.trow@gmail.com?subject=unni%20email">
 			                  <span class="author">Send email to Unni</span>
 			                </a>
 			              </div>
