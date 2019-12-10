@@ -38,7 +38,7 @@ layout: default
 			<div class="col-sm-12">
 			    <div class="title-box2 text-center">
 			        <h3 class="title-a">
-			              Moto
+			              Motto
 			        </h3>
 			        <p class="subtitle-a">
 		              
@@ -50,7 +50,7 @@ layout: default
 
         <div class="row about-cols">
 
-          <div class="col-md-4 wow fadeInUp">
+          <div class="col-md-4">
             <div class="about-col">
               <div class="img">
                 <img src="assets/img/plastic.png" alt="" class="img-fluid">
@@ -63,7 +63,7 @@ layout: default
             </div>
           </div>
 
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-md-4">
             <div class="about-col">
               <div class="img">
                 <img src="assets/img/helmet.png" alt="" class="img-fluid">
@@ -164,7 +164,7 @@ layout: default
 		                <div class="row">
 		                  <div class="col-sm-12">
 		                    <div class="w-more">
-		                      <span class="w-ctegory">In highest motorable road in the world. </span> <span class="w-date">29 Nov. 2018</span>
+		                      <span class="w-ctegory">Through the world's highest motorable road.</span> <span class="w-date">29 Nov. 2018</span>
 		                    </div>
 		                  </div>
 		                  <div class="col-sm-4">
@@ -318,7 +318,7 @@ layout: default
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="blog-single.html"><img src="/assets/img/niyas.png" alt="niyas" class="img-fluid"></a>
+              <img src="/assets/img/niyas.png" alt="niyas" class="img-fluid">
             </div>
             <div class="card-body">
               <div class="card-category-box">
@@ -348,7 +348,7 @@ layout: default
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="blog-single.html"><img src="/assets/img/vip.png" alt="" class="img-fluid"></a>
+              <img src="/assets/img/vip.png" alt="" class="img-fluid">
             </div>
             <div class="card-body">
               <div class="card-category-box">
@@ -377,7 +377,7 @@ layout: default
 	        <div class="col-md-4">
 		          <div class="card card-blog">
 			            <div class="card-img">
-			              <a href="blog-single.html"><img src="/assets/img/unni.png" alt="" class="img-fluid"></a>
+			              <img src="/assets/img/unni.png" alt="" class="img-fluid">
 			            </div>
 			            <div class="card-body">
 			              <div class="card-category-box">

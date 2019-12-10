@@ -5,7 +5,7 @@ $(document).ready(function() {
         licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
         controlArrows: false,
         slidesNavigation: true,
-        paddingTop: '3rem',
+        paddingTop: '4rem',
         fixedElements: '.navbar',
         afterRender: function() {
         	$('#fullpage').css('visibility', 'visible');
@@ -38,6 +38,7 @@ $(function() {
     $('.nav-item').on('click', function() {
         $('.nav-item').removeClass('active');
         $(this).addClass('active');
+        // Collapse navbar
+        $('.navbar-toggler').click();
     });
-
 });
